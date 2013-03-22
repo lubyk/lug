@@ -1,8 +1,10 @@
 --[[--
   # 2D vector
 
-  The vector is immutable when used through this API. It is highly discouraged
-  to change a vector in place as this may break future code.
+  Immutable 2D vector class.
+  
+  The vectors are immutable when used through this API and it is
+  highly discouraged to change a vector in place as this may break future code.
 
   Simple usage example:
 
