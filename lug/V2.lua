@@ -1,4 +1,5 @@
 --[[--
+
   # 2D vector
 
   Immutable 2D vector class.
@@ -271,3 +272,4 @@ lib.__lt = lib.lt
 -- Same as #le.
 lib.__le = lib.le
 
+return lib

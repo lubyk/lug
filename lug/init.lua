@@ -1,4 +1,5 @@
 --[[------------------------------------------------------
+
   # Graphics and geometry classes
 
   This library contains vectors (lug.V2, lug.V3, lug.V4), quaternions
@@ -6,4 +7,5 @@
   is used as core tool or compatibility layer throughout many modules in lubyk.
 
 --]]------------------------------------------------------
-lug = lk.Autoload('lug')
+return Autoload('lug')
+
